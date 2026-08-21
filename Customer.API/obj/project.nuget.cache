@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "7btnfHTJgHs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\Dotnet\\Customer.API\\Customer.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\AppData\\Local\\Temp\\2\\cursor-sandbox-cache\\5ea03e4eda30944b57430059f2188688\\nuget\\microsoft.aspnetcore.openapi\\9.0.7\\microsoft.aspnetcore.openapi.9.0.7.nupkg.sha512",
+    "C:\\Users\\Administrator\\AppData\\Local\\Temp\\2\\cursor-sandbox-cache\\5ea03e4eda30944b57430059f2188688\\nuget\\microsoft.extensions.apidescription.server\\9.0.0\\microsoft.extensions.apidescription.server.9.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\AppData\\Local\\Temp\\2\\cursor-sandbox-cache\\5ea03e4eda30944b57430059f2188688\\nuget\\microsoft.openapi\\1.6.23\\microsoft.openapi.1.6.23.nupkg.sha512",
+    "C:\\Users\\Administrator\\AppData\\Local\\Temp\\2\\cursor-sandbox-cache\\5ea03e4eda30944b57430059f2188688\\nuget\\swashbuckle.aspnetcore\\9.0.3\\swashbuckle.aspnetcore.9.0.3.nupkg.sha512",
+    "C:\\Users\\Administrator\\AppData\\Local\\Temp\\2\\cursor-sandbox-cache\\5ea03e4eda30944b57430059f2188688\\nuget\\swashbuckle.aspnetcore.swagger\\9.0.3\\swashbuckle.aspnetcore.swagger.9.0.3.nupkg.sha512",
+    "C:\\Users\\Administrator\\AppData\\Local\\Temp\\2\\cursor-sandbox-cache\\5ea03e4eda30944b57430059f2188688\\nuget\\swashbuckle.aspnetcore.swaggergen\\9.0.3\\swashbuckle.aspnetcore.swaggergen.9.0.3.nupkg.sha512",
+    "C:\\Users\\Administrator\\AppData\\Local\\Temp\\2\\cursor-sandbox-cache\\5ea03e4eda30944b57430059f2188688\\nuget\\swashbuckle.aspnetcore.swaggerui\\9.0.3\\swashbuckle.aspnetcore.swaggerui.9.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

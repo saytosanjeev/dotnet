@@ -1,0 +1,34 @@
+@Customer.API_HostAddress = http://localhost:5263
+
+### List customers
+GET {{Customer.API_HostAddress}}/api/customers
+Accept: application/json
+
+### Get customer by id
+GET {{Customer.API_HostAddress}}/api/customers/00000000-0000-0000-0000-000000000000
+Accept: application/json
+
+### Create customer
+POST {{Customer.API_HostAddress}}/api/customers
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Ada Lovelace",
+  "email": "ada@example.com",
+  "phone": "+1-555-0100"
+}
+
+### Update customer
+PUT {{Customer.API_HostAddress}}/api/customers/00000000-0000-0000-0000-000000000000
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Ada Lovelace",
+  "email": "ada.lovelace@example.com",
+  "phone": "+1-555-0199"
+}
+
+### Delete customer
+DELETE {{Customer.API_HostAddress}}/api/customers/00000000-0000-0000-0000-000000000000
