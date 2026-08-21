@@ -25,6 +25,10 @@ public class CustomersController : ControllerBase
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     public ActionResult<Models.Customer> GetById(Guid id)
     {
+        if (id == Guid.Empty)
+        {
+            return BadRequest("Invalid customer ID.");
+        }
         var customer = _customers.GetById(id);
         return customer is null ? NotFound() : Ok(customer);
     }
